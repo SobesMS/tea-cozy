@@ -127,7 +127,7 @@ main {
 
 .contact-info {
     margin: 15px 0;
-    height: 130px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
