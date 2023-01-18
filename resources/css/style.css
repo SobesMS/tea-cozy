@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+header {
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header li {
+    display: inline;
+    margin: 0 10px;
+    text-decoration: underline;
+}
+
+main {
+    width: 100%;
+    position: relative;
+    margin-top: 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mission {
+    background-image: url("/resources/images/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission h2,h4 {
+    background-color: black;
+    width: 100%;
+    padding: 15px;
+}
+
+.monthly-teas {
+    width: 1000px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tea-selections {
+    width: 300px;
+}
+
+.tea-selections img {
+    height: 200px;
+}
+
+#tea-of-the-month-head {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#teas-row-two {
+    width: 650px;
+}
+
+.locations {
+    background-image: url("/resources/images/img-locations-background.jpg");
+    width: 1200px;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.address-blocks {
+    width: 980px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.address {
+    width: 300px;
+    padding: 10px 0;
+    background-color: black;
+    opacity: 1;
+}
+
+.address h3,p {
+    opacity: 0.9;
+    margin: 20px 0;
+}
+
+.contact-info {
+    margin: 15px 0;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
